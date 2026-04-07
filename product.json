@@ -1,0 +1,16 @@
+{
+  "id": "app210-pet-ai",
+  "name": "App210 Pet AI",
+  "tagline": "AI-powered mobile solution",
+  "description": "AI-powered app210-pet-ai application built for Aurora Market. Modern, responsive design with SaaS monetization.",
+  "category": "mobile",
+  "tags": ["ai", "mobile"],
+  "url": "https://auroramarket.org/app210-pet-ai",
+  "demo": "https://21leahcimhtiek-oss.github.io/app210-pet-ai",
+  "repo": "https://github.com/21leahcimhtiek-oss/app210-pet-ai",
+  "stack": ["TypeScript", "Next.js", "React"],
+  "status": "mvp",
+  "version": "1.0.0",
+  "author": "Aurora Rayes LLC",
+  "license": "MIT"
+}
