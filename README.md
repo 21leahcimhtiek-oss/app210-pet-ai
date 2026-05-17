@@ -1,56 +1,47 @@
-# PetGenius AI
+# Aurora Rayes Pet Care Agent
 
-> AI vet advice and pet care management
+AI-assisted pet care planning, symptom triage, vaccination tracking, diet guidance, and breed insights for pet owners and care teams.
 
-## Features
+## Aurora Rayes ecosystem fit
+Aurora Rayes Pet Care Agent is positioned as a focused Aurora Rayes product for pet parents, veterinary support teams, shelters, breeders, and pet-care brands. It can be sold standalone, bundled with related Aurora Rayes agents, or packaged as a white-label starter for operators who need a polished AI workflow quickly.
+
+## Core features
 - Symptom checker
-- Vet Q&A
+- Vet Q&A intake
 - Vaccination tracker
 - Diet planner
 - Breed insights
 
-## Stack
-- Next.js 14 (App Router) + TypeScript
-- Tailwind CSS
-- OpenAI GPT-4o-mini
-- Stripe Subscriptions
-- Vercel deployment
+## Commercial use cases
+- Launch a niche AI assistant under the Aurora Rayes umbrella.
+- Use as a lead magnet or paid workflow for pet parents, veterinary support teams, shelters, breeders, and pet-care brands.
+- Bundle with onboarding, content, or consulting services.
+- Extend with customer-specific integrations after discovery.
 
-## Quick Start
+## Monetization status
+Pricing and checkout copy are placeholders. No live payment links or live Stripe keys are committed. Payments are disabled by default and must be enabled only after valid environment variables, terms, and support processes are configured.
 
+
+## Setup
 ```bash
 npm install
-cp .env.example .env.local
-# Fill in API keys
 npm run dev
 ```
 
-## Pricing
-| Plan | Price |
-|------|-------|
-| Free | $0/mo |
-| Pro  | $7/mo or $59/yr |
+Copy `.env.example` to `.env.local` and add provider credentials when ready. `PAYMENTS_ENABLED=false` is the safe default.
 
-## Environment Variables
-Set these in Vercel (or `.env.local` for local development):
-- `NEXT_PUBLIC_APP_NAME`
-- `NEXT_PUBLIC_APP_URL`
-- `OPENAI_API_KEY`
-- `STRIPE_SECRET_KEY`
-- `STRIPE_WEBHOOK_SECRET`
-- `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY`
-- `STRIPE_PRICE_PRO_MONTHLY`
-- `STRIPE_PRICE_PRO_YEARLY`
-- `DATABASE_URL`
+## Build and validation
+```bash
+npm run build
+npm run lint
+```
 
-## Deploy
-1. Push to GitHub
-2. Import in Vercel
-3. Add environment variables
-4. Deploy
-
-## CI
-GitHub Actions runs install, lint, build, and tests on pushes and pull requests to `main`.
+## Sales and launch docs
+- [SELL.md](SELL.md)
+- [marketing/pitch.md](marketing/pitch.md)
+- [PRICING.md](PRICING.md)
+- [SUPPORT.md](SUPPORT.md)
+- [REFUNDS.md](REFUNDS.md)
 
 ## License
-MIT (c) 2026 Aurora Rayes LLC
+MIT. Copyright Aurora Rayes LLC.

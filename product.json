@@ -1,14 +1,22 @@
 {
-  "id": "app210-pet-ai",
-  "name": "App210 Pet AI",
-  "tagline": "AI-powered mobile solution",
-  "description": "AI-powered app210-pet-ai application built for Aurora Market. Modern, responsive design with SaaS monetization.",
-  "category": "mobile",
-  "tags": ["ai", "mobile"],
-  "url": "https://auroramarket.org/app210-pet-ai",
-  "demo": "https://21leahcimhtiek-oss.github.io/app210-pet-ai",
-  "repo": "https://github.com/21leahcimhtiek-oss/app210-pet-ai",
-  "stack": ["TypeScript", "Next.js", "React"],
+  "id": "aurora-petcareai",
+  "name": "Aurora Rayes Pet Care Agent",
+  "tagline": "Aurora Rayes pet care solution",
+  "description": "Aurora Rayes Pet Care Agent is part of the Aurora Rayes ecosystem: AI-assisted pet care planning, symptom triage, vaccination tracking, diet guidance, and breed insights for pet owners and care teams. Payments remain disabled by default until configured with live provider credentials.",
+  "category": "pet care",
+  "tags": [
+    "aurora-rayes",
+    "ai",
+    "pet"
+  ],
+  "url": "https://aurorarayes.example/products/aurora-petcareai",
+  "demo": "https://21leahcimhtiek-oss.github.io/aurora-petcareai",
+  "repo": "https://github.com/21leahcimhtiek-oss/aurora-petcareai",
+  "stack": [
+    "TypeScript",
+    "Next.js",
+    "React"
+  ],
   "status": "mvp",
   "version": "1.0.0",
   "author": "Aurora Rayes LLC",
