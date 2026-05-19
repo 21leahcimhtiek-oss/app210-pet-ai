@@ -54,3 +54,10 @@ GitHub Actions runs install, lint, build, and tests on pushes and pull requests 
 
 ## License
 MIT (c) 2026 Aurora Rayes LLC
+
+## Aurora Ecosystem Positioning
+This repository is part of the Aurora ecosystem: modular open-source building blocks that compose into production-ready AI products and operational systems.
+
+## No-Key-First
+Core workflows are designed to run in a no-key-first mode so you can evaluate and develop locally before adding external API keys.
+
